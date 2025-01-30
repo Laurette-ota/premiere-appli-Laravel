@@ -1,8 +1,9 @@
-@extends ('layouts.app')
-
-@section('content')
-<!-- Page header with logo and tagline-->
-<header class="py-5 bg-light border-bottom mb-4">
+@extends('layouts.app')  
+ 
+@section('content') 
+ 
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-4">
             <div class="container">
                 <div class="text-center my-5">
                     <h1 class="fw-bolder">Welcome to Blog Home!</h1>
@@ -50,7 +51,6 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            
                             <!-- Blog post-->
                             <div class="card mb-4">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
@@ -129,4 +129,4 @@
                 </div>
             </div>
         </div>
-@endsection
+@endsection 
